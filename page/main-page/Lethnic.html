@@ -9,14 +9,14 @@
     <link rel="icon" type="image/x-icon" href="Img/ico-32x32_32x32.webp" />
     <link href="font-awesome/css/all.css" rel="stylesheet">
   </head>
-  <body>
-    <div class="row-promotion">
+  <body onscroll="scrollHeader()">
+    <div class="row-promotion" id="row-promotion">
       <div class="common-col-promotion">
         Freeship cho đơn hàng từ 1 triệu đồng
       </div>
-      <div class="common-col-promotion col-x">x</div>
+      <div class="common-col-promotion col-x" onclick="button_promotion()">x</div>
     </div>
-    <div class="row-header">
+    <div class="row-header" id="row-header">
       <div class="col-1-header">LETHNIC</div>
       <div class="col-2-menu-header">
         <ul>
@@ -137,9 +137,9 @@
         </div>
       </div>
       <div class="row-content">
-        <div class="content-1">
+        <div class="content-1" id="change_img">
           <div class="button-arrow">
-            <div class="parent-button-arrow">
+            <div class="parent-button-arrow" onclick="button_left_content_1()">
               <i class="arrow left"></i>
             </div>
             <div class="check">
@@ -152,7 +152,8 @@
                 <span class="checkmark check2" id="button2_Cont1"></span>
               </label>
             </div>
-            <div class="parent-button-arrow pos-right">
+            <div class="parent-button-arrow pos-right"
+              onclick="button_right_content_1()">
               <i class="arrow right"></i>
             </div>
           </div>
@@ -196,7 +197,9 @@
               Lethnic</div>
           </div>
           <div class="parent-content-3">
-            <div class="button-arrow"></div>
+            <div class="button-arrow-content-3 arrow-left-content3">
+              <i class="fas fa-chevron-left"></i>
+            </div>
             <div class="common-img-content3">
               <div class="common-col-content">
                 <div class="img1-content3 common-img-content"></div>
@@ -461,7 +464,9 @@
                 </div>
               </div>
             </div>
-            <div class="button-arrow"></div>
+            <div class="button-arrow-content-3 arrow-right-content3">
+              <i class="fas fa-chevron-right"></i>
+            </div>
           </div>
         </div>
         <div class="content-4 content-3">
@@ -818,39 +823,39 @@
                   Phường 10, Gò Vấp ( Mới khai trương )</div>
                 <div class="common-text-footer">Chi nhánh 5 : 07, Phan Chu
                   Trinh, Quảng Ngãi.</div>
-                <div class="common-text-footer">fb.com/lethnicvietnam</div>
-                <div class="common-text-footer">info@lethnic.vn</div>
+                <div class="common-text-footer pointer">fb.com/lethnicvietnam</div>
+                <div class="common-text-footer pointer">info@lethnic.vn</div>
               </div>
             </div>
           </div>
           <div class="common-footer">
             <div class="common-present-footer">Hữu Ích</div>
             <div class="common-col-footer">
-              <div class="common-text-footer">Giới thiệu</div>
-              <div class="common-text-footer">Chính sách bảo mật</div>
-              <div class="common-text-footer">Chính sách đổi trả</div>
-              <div class="common-text-footer">Điều khoản dịch vụ</div>
-              <div class="common-text-footer">Liên hệ</div>
-              <div class="common-text-footer">Tra Cứu Đơn Hàng</div>
-              <div class="common-text-footer">Demo Khắc Tên</div>
+              <div class="common-text-footer pointer">Giới thiệu</div>
+              <div class="common-text-footer pointer">Chính sách bảo mật</div>
+              <div class="common-text-footer pointer">Chính sách đổi trả</div>
+              <div class="common-text-footer pointer">Điều khoản dịch vụ</div>
+              <div class="common-text-footer pointer">Liên hệ</div>
+              <div class="common-text-footer pointer">Tra Cứu Đơn Hàng</div>
+              <div class="common-text-footer pointer">Demo Khắc Tên</div>
             </div>
           </div>
           <div class="common-footer">
             <div class="common-present-footer">Truy Cập Nhanh</div>
             <div class="common-col-footer">
-              <div class="common-text-footer">Ví Nam</div>
-              <div class="common-text-footer">Ví Nữ</div>
-              <div class="common-text-footer">Phụ Kiện</div>
-              <div class="common-text-footer">Blog</div>
-              <div class="common-text-footer">Tuyển Dụng</div>
+              <div class="common-text-footer pointer">Ví Nam</div>
+              <div class="common-text-footer pointer">Ví Nữ</div>
+              <div class="common-text-footer pointer">Phụ Kiện</div>
+              <div class="common-text-footer pointer">Blog</div>
+              <div class="common-text-footer pointer">Tuyển Dụng</div>
             </div>
           </div>
           <div class="common-footer">
             <div class="common-present-footer">Kết Nối</div>
             <div class="common-col-footer">
-              <div class="common-text-footer">Facebook</div>
-              <div class="common-text-footer">Instagram</div>
-              <div class="common-text-footer">YouTube</div>
+              <div class="common-text-footer pointer">Facebook</div>
+              <div class="common-text-footer pointer">Instagram</div>
+              <div class="common-text-footer pointer">YouTube</div>
             </div>
           </div>
         </div>
