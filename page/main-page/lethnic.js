@@ -1,3 +1,5 @@
+var row_header = document.getElementById("row-header");
+
 function button_right_content_1() {
     var change_img2 = document.getElementById("change_img");
     change_img2.style.backgroundImage = "url('Img/js_conten1.webp')";
@@ -12,15 +14,35 @@ function button_promotion() {
 }
 function scrollHeader() {
     if (document.documentElement.scrollTop > 290) {
-        document.getElementById("row-header").style.position = "fixed";
-        document.getElementById("row-header").style.backgroundColor = "white";
-        document.getElementById("row-header").style.boxShadow = "0 0 7px #0003";
-        document.getElementById("row-header").style.animation="scroll 1s both";
+        row_header.style.position = "fixed";
+        row_header.style.backgroundColor = "white";
+        row_header.style.boxShadow = "0 0 7px #0003";
+        row_header.style.animation = "scroll 1s both";
     }
     else {
-        document.getElementById("row-header").style.position = "relative";
-        document.getElementById("row-header").style.backgroundColor = "rgba(255,255,255,.7)";
-        document.getElementById("row-header").style.boxShadow = "none";
-        document.getElementById("row-header").style.animation="none";
+        row_header.style.position = "relative";
+        row_header.style.backgroundColor = "rgba(255,255,255,.7)";
+        row_header.style.boxShadow = "none";
+        row_header.style.animation = "none";
     }
 }
+function button_help() {
+    var page_message = document.getElementById("wonder");
+    var icon_mess_1 = document.getElementById("bef-icon-1");
+    var icon_mess_2 = document.getElementById("bef-icon-2");
+    if (page_message.style.display != "block") {
+        page_message.style.display = "block";
+        icon_mess_1.style.display = "none";
+        icon_mess_2.style.display = "block";
+        page_message.style.animation = "scroll_question_on 1s both";
+    }
+    else {
+        page_message.style.display = "none"
+        icon_mess_1.style.display = "block";
+        icon_mess_2.style.display = "none";
+    }
+}
+
+// $(function(){
+//     $("#ContentToInclude").load("..\..\sub-component\header.html"); 
+// });
