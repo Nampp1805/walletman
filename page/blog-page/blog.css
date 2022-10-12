@@ -10,6 +10,8 @@
 
 .content-right {
     width: 69%;
+    display: flex;
+    padding: 0 15px 0 15px;
 }
 
 .big-content {
