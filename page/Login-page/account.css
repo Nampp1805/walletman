@@ -1,0 +1,94 @@
+body{
+    font-family: serif;
+}
+.my-account {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.my-account>h2 {
+    text-align: center;
+}
+
+.common-content {
+    width: 86%;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    padding-bottom: 60px;
+    justify-content: space-between;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #EEEEEE;
+    width: 35%;
+    align-items: center;
+    border-radius: 10px;
+    height: 260px;
+    margin-right: 70px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #EEEEEE;
+    width: 35%;
+    align-items: center;
+    border-radius: 10px;
+    height: 260px;
+    margin-left: 60px;
+}
+
+.password {}
+
+.email {
+    margin: 10px;
+}
+
+.common-btn {
+    border-radius: 6px;
+    color: black;
+    border: 1px black solid;
+    width: 110px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    height: 32px;
+    justify-content: center;
+}
+
+.common-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    width: 110px;
+    margin-top: 30px;
+    height: 46px;
+}
+
+.text {
+    margin-top: 20px;
+    color: #0000FF;
+}
+
+.text:hover{
+    color: #ffab00;
+}
+.describe {
+    width: 85%;
+}
+
+.input{
+    border-radius: 5px;
+}
+
+.text>a{
+    text-decoration: none;
+}
