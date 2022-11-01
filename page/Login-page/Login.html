@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Account</title>
-    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="Login.css">
     <link rel="stylesheet" href="../main-page/lethnic.css">
     <link href="font-awesome/css/all.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="Img/ico-32x32_32x32.webp" />
@@ -145,33 +145,39 @@
             <h2>My Account</h2>
         </div>
         <div class="common-content">
-            <div class="content-left">
-                <div class="title">
-                    <h5>LOGIN</h5>
-                </div>
-                <div class="describe">If you have an account with us, please log in.</div>
-                <div class="input-email">
-                    <input type="email" class="email input"  name="email" placeholder="Email">
-                </div>
-                <div class="input-password">
-                    <input type="text" class="password input" name="password" placeholder="Password">
-                </div>
-                <div class="common-btn">SIGN IN</div>
-                <div class="text">
-                    <a href="https://lethnic.vn/account/login">Forgot your password?</a>
-                </div>
-            </div>
-            <div class="content-right">
+            <form action="/Login.html" class="form-login" method="post">
+                <div class="content-left">
+                    <div class="title">
+                        <h5>LOGIN</h5>
+                    </div>
+                    <div class="describe">If you have an account with us, please log in.</div>
+                    <div class="input-email">
+                        <input type="email" class="email input" name="email" placeholder="Email">
+                    </div>
+                    <div class="input-password">
+                        <input type="password" class="password input" name="password" placeholder="Password">
+                    </div>
+                    <div class="btn-SIGNIN ">
+                        <input type="submit" value="Log In" class="btn">
+                    </div>
+                    <div class="text">
+                        Forgot your password?
+                    </div>
+            </form>
+        </div>
+        <div class="content-right">
                 <div class="title">
                     <h5>NEW CUSTOMER?</h5>
                 </div>
                 <div class="describe">Registering for this site allows you to access your order status and history.
                     We will get a new account set up for you in no time. For this will only ask you for information
                     necessary to make the purchase process faster and easier.</div>
-                <div class="common-btn btn">CREATE AN ACCOUNT</div>
+                    <div class="btn-Create">
+                        <input type="submit" value="Create" class="btn">
+                    </div>
             </div>
 
-        </div>
+    </div>
     </div>
     <div class="row-footer">
         <div class="parent-footer">

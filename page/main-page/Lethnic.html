@@ -1,903 +1,902 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Lethnic
-    </title>
-    <link rel="stylesheet" href="lethnic.css" />
-    <link rel="icon" type="image/x-icon" href="Img/ico-32x32_32x32.webp" />
-    <link href="font-awesome/css/all.css" rel="stylesheet">
-  </head>
-  <body onscroll="scrollHeader()">
-    <div id="ContentToInclude"></div>
-    <div class="icon-mess" id="icon-mess" onclick="button_help()">
-      <i class="fab fa-facebook-messenger" id="bef-icon-1"></i>
-      <i class="fas fa-times" id="bef-icon-2"></i>
-    </div>
-    <div class="wonder" id="wonder">
-      <div class="row-wonder-top">
-        <div class="chat">Chat With us</div>
-        <div class="hello">👋 Xin chào! Bạn vui lòng nhập câu hỏi hoặc gợi ý sản
-          phẩm bạn đang mong muốn tìm kiếm. Lethnic rất sẵn sàng hỗ trợ bạn!
-        </div>
-      </div>
-      <div class="row-wonder-between">
-        <textarea placeholder="Write message" rows="6" maxlength="350"></textarea>
-        <i class="fas fa-paper-plane"></i>
-      </div>
-      <div class="row-wonder-bottom">
-        <div class="question">Instant answers</div>
-        <div class="Instant">
-          <div class="common-instant">
-            <div class="col-instant">Tôi muốn kiểm tra đơn hàng?</div>
-            <i class="fas fa-paper-plane"></i>
-          </div>
-          <div class="common-instant">
-            <div class="col-instant">Tôi muốn hỏi về thời gian giao hàng?</div>
-            <i class="fas fa-paper-plane"></i>
-          </div>
-          <div class="common-instant">
-            <div class="col-instant">Tôi muốn hỏi về dịch vụ Khắc Tên / Gói Quà?</div>
-            <i class="fas fa-paper-plane"></i>
-          </div>
-          <div class="common-instant">
-            <div class="col-instant">Track my order</div>
-            <i class="fas fa-paper-plane"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row-promotion" id="row-promotion">
-      <div class="common-col-promotion">
-        Freeship cho đơn hàng từ 1 triệu đồng
-      </div>
-      <div class="common-col-promotion col-x" onclick="button_promotion()">x</div>
-    </div>
-    <div class="row-header" id="row-header">
-      <div class="col-1-header">LETHNIC</div>
-      <div class="col-2-menu-header">
-        <ul>
-          <li>
-            <div class="parent-sup-menu">Ví Nam</div>
-            <div class="sup-menu-header">
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví Mini - Nhỏ Gọn - Ví Card</div>
-              </div>
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví Kẹp Tiền - Money Clip</div>
-              </div>
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví Handmade</div>
-              </div>
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví Ngang</div>
-              </div>
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví Đứng</div>
-              </div>
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví Gập Đôi - Bifold Wallet</div>
-              </div>
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví Gập Ba - Trifold Wallet</div>
-              </div>
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví Có Ngăn Khóa Kéo</div>
-              </div>
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví Dài Nam</div>
-              </div>
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví vải</div>
-              </div>
-              <div class="common-menu-wallet" style="border: none">
-                <div class="hover-wallet">Tất cả cho Nam</div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="parent-sup-menu">Ví Nữ</div>
-            <div class="sup-menu-header">
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví Mini - Ví Card</div>
-              </div>
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Ví Dài </div>
-              </div>
-              <div class="common-menu-wallet">
-                <div class="hover-wallet">Tất cả cho nữ</div>
-              </div>
-            </li>
-            <li>
-              <div class="parent-sup-menu">Thắt Lưng</div>
-            </li>
-            <li>
-              <div class="parent-sup-menu">Collection</div>
-              <div class="sup-menu-header">
-                <div class="common-menu-wallet">
-                  <div class="hover-wallet">Love Collection - Valentine 2022</div>
-                </div>
-                <div class="common-menu-wallet">
-                  <div class="hover-wallet">Meron Collection </div>
-                </div>
-                <div class="common-menu-wallet">
-                  <div class="hover-wallet">Sáp - Waxed Oil Leather </div>
-                </div>
-                <div class="common-menu-wallet">
-                  <div class="hover-wallet">Leader Collection </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="parent-sup-menu pos-icon">
-                Khắc Tên
-                <div class="icon-hot">hot
-                  <div class="arrow-right"></div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="parent-sup-menu"><a href="/walletman/page/blog-page/blog.html">Blog</a></div>
-              <div class="sup-menu-header">
-                <div class="common-menu-wallet">
-                  <div class="hover-wallet">Xu Hướng </div>
-                </div>
-                <div class="common-menu-wallet">
-                  <div class="hover-wallet">Quà Tặng</div>
-                </div>
-                <div class="common-menu-wallet">
-                  <div class="hover-wallet">Kiến Thức Ngành</div>
-                </div>
-                <div class="common-menu-wallet">
-                  <div class="hover-wallet">Phong Thuỷ</div>
-                </div>
-                <div class="common-menu-wallet">
-                  <div class="hover-wallet">Tuyển Dụng</div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="parent-sup-menu">Tuyển Dụng</div>
-            </li>
-          </ul>
-        </div>
-        <div class="col-3-header">
-          <div class="accounts">
-            <i class="fas fa-search"></i>
-          </div>
-          <div class="accounts">
-            <i class="far fa-user"></i>
-          </div>
-          <div class="accounts">
-            <i class="fas fa-cart-plus"></i>
-          </div>
-        </div>
-      </div>
-      <div class="row-content">
-        <div class="content-1" id="change_img">
-          <div class="button-arrow">
-            <div class="parent-button-arrow" onclick="button_left_content_1()">
-              <i class="arrow left"></i>
-            </div>
-            <div class="check">
-              <label class="container">
-                <input type="radio" checked="checked" name="radio">
-                <span class="checkmark check1" id="button1_Cont1"></span>
-              </label>
-              <label class="container">
-                <input type="radio" checked="checked" name="radio">
-                <span class="checkmark check2" id="button2_Cont1"></span>
-              </label>
-            </div>
-            <div class="parent-button-arrow pos-right"
-              onclick="button_right_content_1()">
-              <i class="arrow right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="content-2">
-          <div class="common-col-content2" style="border: none;">
-            <div class="common-img">
-              <img src="Img/xe chở.png">
-            </div>
-            <div class="common-text-content2">
-              <div class="common-text-1-content2">
-                Free Shipping</div>
-              <div class="common-text-2-content2">Hoá đơn từ 1 triệu đồng</div>
-            </div>
-          </div>
-          <div class="common-col-content2">
-            <div class="common-img">
-              <img src="Img/quay .png">
-            </div>
-            <div class="common-text-content2">
-              <div class="common-text-1-content2">
-                Bảo Hành</div>
-              <div class="common-text-2-content2">Bảo hành 12 tháng</div>
-            </div>
-          </div>
-          <div class="common-col-content2">
-            <div class="common-img">
-              <img src="Img/khoá.png">
-            </div>
-            <div class="common-text-content2">
-              <div class="common-text-1-content2">Thanh toán</div>
-              <div class="common-text-2-content2">Kiểm tra sản phẩm trước khi
-                thanh toán</div>
-            </div>
-          </div>
-        </div>
-        <div class="content-3">
-          <div class="header-content">
-            <div class="text-1-content">Sản Phẩm Vừa Lên Kệ</div>
-            <div class="text-2-content">Những sản phẩm mới được giới thiệu từ
-              Lethnic</div>
-          </div>
-          <div class="parent-content-3">
-            <div class="button-arrow-content-3 arrow-left-content3">
-              <i class="fas fa-chevron-left"></i>
-            </div>
-            <div class="common-img-content3">
-              <div class="common-col-content">
-                <div class="img1-content3 common-img-content"></div>
-                <div class="introduce-wallet" style="border: none;">
-                  <div class="text-introduce-wallet">Ví da nam phối màu dáng
-                    ngang - Pride H</div>
-                  <div class="price">520.000 ₫</div>
-                  <div class="rating">
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                </div>
-                <div class="common-icon-shopping">
-                  <div class="sss">
-                    <div class="common-style-icon">
-                      <i class="fas fa-cart-plus"></i>
-                    </div>
-                    <div class="common-style-icon">
-                      <i class="fas fa-search-plus"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="common-col-content">
-                <div class="img2-content3 common-img-content"></div>
-                <div class="introduce-wallet">
-                  <div class="text-introduce-wallet">Ốp lưng IPhone 13 Pro Max
-                    Da Thật</div>
-                  <div class="price">349.000 ₫</div>
-                  <div class="star">
-                    <div class="rating1">
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                    </div>
-                  </div>
-                  <div class="img-small-content">
-                    <div class="common-row-img-small-content">
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung1"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content blue-color">Xanh
-                            Navy</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung2"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            green-color">Xanh Ngọc</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung3"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            yellow-color">Vàng Bò</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung4"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content red-color">Đỏ
-                            Rượu</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung5"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            brown-color">Nâu Sáp</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung6"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Cam</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="common-row-img-small-content">
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung7"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Cẩm Lai Nâu</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung8"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Cẩm Lai Đỏ</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung9"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Cẩm Lai Xanh </div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung10"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Camou Nâu </div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung11"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Camou Xanh Lá</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung12"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Vân Cá Đỏ</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="common-row-img-small-content">
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung13"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Vân Cá Đen</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-oplung14"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Vân Cá Xanh</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="common-icon-shopping">
-                  <div class="sss">
-                    <div class="common-style-icon">
-                      <i class="fas fa-cart-plus"></i>
-                    </div>
-                    <div class="common-style-icon">
-                      <i class="fas fa-search-plus"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="common-col-content">
-                <div class="img3-content3 common-img-content"></div>
-                <div class="introduce-wallet">
-                  <div class="text-introduce-wallet">Ví da nam phối màu dáng
-                    đứng - Pride V</div>
-                  <div class="price">520.000 ₫</div>
-                  <div class="star">
-                    <div class="rating">
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="common-icon-shopping">
-                  <div class="sss">
-                    <div class="common-style-icon">
-                      <i class="fas fa-cart-plus"></i>
-                    </div>
-                    <div class="common-style-icon">
-                      <i class="fas fa-search-plus"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="common-col-content">
-                <div class="img4-content3 common-img-content"></div>
-                <div class="introduce-wallet">
-                  <div class="text-introduce-wallet">Ví Nam Gập Đôi Dáng Đứng -
-                    Saffiano Leather - REVO-V</div>
-                  <div class="price">580.000 ₫</div>
-                  <div class="star">
-                    <div class="rating1">
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                    </div>
-                  </div>
-                  <div class="img-small-content-3">
-                    <div class="common-row-img-small-content">
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-vidung-small1"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Xanh Navy</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-vidung-small2"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Đen</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="common-icon-shopping">
-                  <div class="sss">
-                    <div class="common-style-icon">
-                      <i class="fas fa-cart-plus"></i>
-                    </div>
-                    <div class="common-style-icon">
-                      <i class="fas fa-search-plus"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="button-arrow-content-3 arrow-right-content3">
-              <i class="fas fa-chevron-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="content-4 content-3">
-          <div class="header-content">
-            <div class="text-1-content">Best Seller</div>
-            <div class="text-2-content">Những sản phẩm bán nhiều nhất trong 30
-              ngàg qua.</div>
-          </div>
-          <div class="parent-content-4">
-            <div class="common-img-content3">
-              <div class="common-col-content">
-                <div class="img1-content4 common-img-content"></div>
-                <div class="introduce-wallet" style="border: none;">
-                  <div class="text-introduce-wallet">PI - Ví Gập Ba Nam - Pull
-                    Up Leather</div>
-                  <div class="price">650.000 ₫</div>
-                  <div class="rating1">
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                </div>
-                <div class="common-icon-shopping">
-                  <div class="sss">
-                    <div class="common-style-icon">
-                      <i class="fas fa-cart-plus"></i>
-                    </div>
-                    <div class="common-style-icon">
-                      <i class="fas fa-search-plus"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="common-col-content">
-                <div class="img2-content4 common-img-content"></div>
-                <div class="introduce-wallet">
-                  <div class="text-introduce-wallet">Mini Cosy - Ví Da Nam Gập
-                    Đôi Mini Mỏng Gọn</div>
-                  <div class="price">420.000 ₫</div>
-                  <div class="star">
-                    <div class="rating1">
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                    </div>
-                  </div>
-                  <div class="img-small-content-3">
-                    <div class="common-row-img-small-content">
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-mini1"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content blue-color">Nâu</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-mini2"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            green-color">Xanh Navy</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-mini3"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            yellow-color">Đen</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-mini14"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content red-color">Xám</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-mini15"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            brown-color">Xanh Olive</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                      <div class="common-products-pos-content">
-                        <div class="common-img-small-content img-small-content3
-                          img-mini16"></div>
-                        <div class="row-color-products">
-                          <div class="common-color-products-content
-                            Orange-color">Xanh Rêu</div>
-                          <div class="common-arrow-down-content-small"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="common-icon-shopping">
-                  <div class="sss">
-                    <div class="common-style-icon">
-                      <i class="fas fa-cart-plus"></i>
-                    </div>
-                    <div class="common-style-icon">
-                      <i class="fas fa-search-plus"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="common-col-content">
-                <div class="img3-content4 common-img-content"></div>
-                <div class="introduce-wallet">
-                  <div class="text-introduce-wallet">Ví gập đôi có ngăn khoá kéo
-                    - Rambo</div>
-                  <div class="price">550.000 ₫</div>
-                  <div class="star">
-                    <div class="rating1">
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                    </div>
-                  </div>
-                  <div class="common-row-img-small-content">
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img3-mini1"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content blue-color">Đen
-                          / line Nâu</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img3-mini2"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content green-color">Đen
-                          / line Xanh</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img3-mini3"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content yellow-color">Xám</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img3-mini4"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content red-color">Xanh
-                          Navy</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img3-mini5"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content brown-color">Nâu</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img3-mini6"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content Orange-color">Xanh
-                          Rêu</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="common-icon-shopping">
-                  <div class="sss">
-                    <div class="common-style-icon">
-                      <i class="fas fa-cart-plus"></i>
-                    </div>
-                    <div class="common-style-icon">
-                      <i class="fas fa-search-plus"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="common-col-content">
-                <div class="img4-content4 common-img-content"></div>
-                <div class="introduce-wallet">
-                  <div class="text-introduce-wallet">Noble - Ví Đứng Gập Ba</div>
-                  <div class="price">490.000 ₫</div>
-                  <div class="star">
-                    <div class="rating1">
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                      <span>☆</span>
-                    </div>
-                  </div>
-                  <div class="common-row-img-small-content">
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img-oplung1"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content blue-color">Xanh
-                          Navy</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img-oplung2"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content green-color">Xanh
-                          Ngọc</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img-oplung3"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content yellow-color">Vàng
-                          Bò</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img-oplung4"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content red-color">Đỏ
-                          Rượu</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img-oplung5"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content brown-color">Nâu
-                          Sáp</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                    <div class="common-products-pos-content">
-                      <div class="common-img-small-content img-small-content3
-                        img-oplung6"></div>
-                      <div class="row-color-products">
-                        <div class="common-color-products-content Orange-color">Cam</div>
-                        <div class="common-arrow-down-content-small"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="common-icon-shopping">
-                  <div class="sss">
-                    <div class="common-style-icon">
-                      <i class="fas fa-cart-plus"></i>
-                    </div>
-                    <div class="common-style-icon">
-                      <i class="fas fa-search-plus"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="content-5">
-          <div class="header-content">
-            <div class="text-1-content">Lethnic có gì?</div>
-            <div class="text-2-content">Cùng khám phá những dòng sản phẩm độc
-              đáo từ Lethnic</div>
-          </div>
-          <div class="parent-content-5">
-            <div class="col-left-contenn5 common-cur-content5">
-              <img src="Img/Lethnic-Wallet-For-men_600x.webp">
-            </div>
-            <div class="col-right-content5">
-              <div class="col-right-small-left-content5 common-cur-content5">
-                <img src="Img/content5-right.webp"
-                  class="common-small-img-content5">
-              </div>
-              <div class="col-right-small-right-content5">
-                <div class="small-right common-cur-content5">
-                  <img src="Img/content5-rigth1.webp"
-                    class="common-small-img-content5">
-                </div>
-                <div class="small-right common-cur-content5">
-                  <img src="Img/content5-right2.webp"
-                    class="common-small-img-content5">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="content-6">
-          <div class="header-content">
-            <div class="text-1-content">Kiến Thức & Quà Tặng</div>
-            <div class="text-2-content">Những chia sẻ thú vị và thông tin hữu
-              ích</div>
-          </div>
-          <div class="parent-content6">
-            <div class="common-knowledge-content6">
-              <div class="common-img-content6 img1-content6"></div>
-              <div class="common-intension-content6">5 TIPS tặng quà thông minh
-                và tiết kiệm cho các dịp lễ</div>
-              <div class="time">March 31, 2022</div>
-            </div>
-            <div class="common-knowledge-content6">
-              <div class="common-img-content6 img2-content6"></div>
-              <div class="common-intension-content6">6 món quà tặng bạn Nam
-                trong buổi hẹn đầu tiên</div>
-              <div class="time">March 22, 2022</div>
-            </div>
-            <div class="common-knowledge-content6">
-              <div class="common-img-content6 img3-content6"></div>
-              <div class="common-intension-content6">8 món quà dành cho bạn nữ
-                trong buổi hẹn hò đầu tiên</div>
-              <div class="time">March 21, 2022</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row-footer">
-        <div class="parent-footer">
-          <div class="common-footer">
-            <div class="common-present-footer">Liên Hệ</div>
-            <div class="common-col-footer">
 
-              <div class="text-footer">
-                <div class="common-text-footer">Chi nhánh 1 : 499, Nguyễn Đình
-                  Chiểu, Phường 2, Quận 3.</div>
-                <div class="common-text-footer">Chi nhánh 2 : 267/1A, Nguyễn Văn
-                  Đậu, Phường 11, Bình Thạnh.( Chưa đón khách )</div>
-                <div class="common-text-footer">Chi nhánh 3 : 39, Huỳnh Văn
-                  Bánh, Phường 17, Phú Nhuận</div>
-                <div class="common-text-footer">Chi nhánh 4 : 119 , Quang Trung,
-                  Phường 10, Gò Vấp ( Mới khai trương )</div>
-                <div class="common-text-footer">Chi nhánh 5 : 07, Phan Chu
-                  Trinh, Quảng Ngãi.</div>
-                <div class="common-text-footer pointer">fb.com/lethnicvietnam</div>
-                <div class="common-text-footer pointer">info@lethnic.vn</div>
+<head>
+  <meta charset="UTF-8" />
+  <title>Lethnic
+  </title>
+  <link rel="stylesheet" href="lethnic.css" />
+  <link rel="icon" type="image/x-icon" href="Img/ico-32x32_32x32.webp" />
+  <link href="font-awesome/css/all.css" rel="stylesheet">
+</head>
+
+<body onscroll="scrollHeader()">
+  <div id="ContentToInclude"></div>
+  <div class="icon-mess" id="icon-mess" onclick="button_help()">
+    <i class="fab fa-facebook-messenger" id="bef-icon-1"></i>
+    <i class="fas fa-times" id="bef-icon-2"></i>
+  </div>
+  <div class="wonder" id="wonder">
+    <div class="row-wonder-top">
+      <div class="chat">Chat With us</div>
+      <div class="hello">👋 Xin chào! Bạn vui lòng nhập câu hỏi hoặc gợi ý sản
+        phẩm bạn đang mong muốn tìm kiếm. Lethnic rất sẵn sàng hỗ trợ bạn!
+      </div>
+    </div>
+    <div class="row-wonder-between">
+      <textarea placeholder="Write message" rows="6" maxlength="350"></textarea>
+      <i class="fas fa-paper-plane"></i>
+    </div>
+    <div class="row-wonder-bottom">
+      <div class="question">Instant answers</div>
+      <div class="Instant">
+        <div class="common-instant">
+          <div class="col-instant">Tôi muốn kiểm tra đơn hàng?</div>
+          <i class="fas fa-paper-plane"></i>
+        </div>
+        <div class="common-instant">
+          <div class="col-instant">Tôi muốn hỏi về thời gian giao hàng?</div>
+          <i class="fas fa-paper-plane"></i>
+        </div>
+        <div class="common-instant">
+          <div class="col-instant">Tôi muốn hỏi về dịch vụ Khắc Tên / Gói Quà?</div>
+          <i class="fas fa-paper-plane"></i>
+        </div>
+        <div class="common-instant">
+          <div class="col-instant">Track my order</div>
+          <i class="fas fa-paper-plane"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-promotion" id="row-promotion">
+    <div class="common-col-promotion">
+      Freeship cho đơn hàng từ 1 triệu đồng
+    </div>
+    <div class="common-col-promotion col-x" onclick="button_promotion()">x</div>
+  </div>
+  <div class="row-header" id="row-header">
+    <div class="col-1-header">LETHNIC</div>
+    <div class="col-2-menu-header">
+      <ul>
+        <li>
+          <div class="parent-sup-menu">Ví Nam</div>
+          <div class="sup-menu-header">
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví Mini - Nhỏ Gọn - Ví Card</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví Kẹp Tiền - Money Clip</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví Handmade</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví Ngang</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví Đứng</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví Gập Đôi - Bifold Wallet</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví Gập Ba - Trifold Wallet</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví Có Ngăn Khóa Kéo</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví Dài Nam</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví vải</div>
+            </div>
+            <div class="common-menu-wallet" style="border: none">
+              <div class="hover-wallet">Tất cả cho Nam</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="parent-sup-menu">Ví Nữ</div>
+          <div class="sup-menu-header">
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví Mini - Ví Card</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Ví Dài </div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Tất cả cho nữ</div>
+            </div>
+        </li>
+        <li>
+          <div class="parent-sup-menu">Thắt Lưng</div>
+        </li>
+        <li>
+          <div class="parent-sup-menu">Collection</div>
+          <div class="sup-menu-header">
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Love Collection - Valentine 2022</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Meron Collection </div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Sáp - Waxed Oil Leather </div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Leader Collection </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="parent-sup-menu pos-icon">
+            Khắc Tên
+            <div class="icon-hot">hot
+              <div class="arrow-right"></div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="parent-sup-menu"><a href="/walletman/page/blog-page/blog.html">Blog</a></div>
+          <div class="sup-menu-header">
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Xu Hướng </div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Quà Tặng</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Kiến Thức Ngành</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Phong Thuỷ</div>
+            </div>
+            <div class="common-menu-wallet">
+              <div class="hover-wallet">Tuyển Dụng</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="parent-sup-menu">Tuyển Dụng</div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-3-header">
+      <div class="accounts">
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="accounts">
+        <i class="far fa-user"></i>
+      </div>
+      <div class="accounts">
+        <i class="fas fa-cart-plus"></i>
+      </div>
+    </div>
+  </div>
+  <div class="row-content">
+    <div class="content-1" id="change_img">
+      <div class="button-arrow">
+        <div class="parent-button-arrow" onclick="button_left_content_1()">
+          <i class="arrow left"></i>
+        </div>
+        <div class="check">
+          <label class="container">
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark check1" id="button1_Cont1"></span>
+          </label>
+          <label class="container">
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark check2" id="button2_Cont1"></span>
+          </label>
+        </div>
+        <div class="parent-button-arrow pos-right" onclick="button_right_content_1()">
+          <i class="arrow right"></i>
+        </div>
+      </div>
+    </div>
+    <div class="content-2">
+      <div class="common-col-content2" style="border: none;">
+        <div class="common-img">
+          <img src="Img/xe chở.png">
+        </div>
+        <div class="common-text-content2">
+          <div class="common-text-1-content2">
+            Free Shipping</div>
+          <div class="common-text-2-content2">Hoá đơn từ 1 triệu đồng</div>
+        </div>
+      </div>
+      <div class="common-col-content2">
+        <div class="common-img">
+          <img src="Img/quay .png">
+        </div>
+        <div class="common-text-content2">
+          <div class="common-text-1-content2">
+            Bảo Hành</div>
+          <div class="common-text-2-content2">Bảo hành 12 tháng</div>
+        </div>
+      </div>
+      <div class="common-col-content2">
+        <div class="common-img">
+          <img src="Img/khoá.png">
+        </div>
+        <div class="common-text-content2">
+          <div class="common-text-1-content2">Thanh toán</div>
+          <div class="common-text-2-content2">Kiểm tra sản phẩm trước khi
+            thanh toán</div>
+        </div>
+      </div>
+    </div>
+    <div class="content-3">
+      <div class="header-content">
+        <div class="text-1-content">Sản Phẩm Vừa Lên Kệ</div>
+        <div class="text-2-content">Những sản phẩm mới được giới thiệu từ
+          Lethnic</div>
+      </div>
+      <div class="parent-content-3">
+        <div class="button-arrow-content-3 arrow-left-content3">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="common-img-content3">
+          <div class="common-col-content">
+            <div class="img1-content3 common-img-content"></div>
+            <div class="introduce-wallet" style="border: none;">
+              <div class="text-introduce-wallet">Ví da nam phối màu dáng
+                ngang - Pride H</div>
+              <div class="price">520.000 ₫</div>
+              <div class="rating">
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+              </div>
+            </div>
+            <div class="common-icon-shopping">
+              <div class="sss">
+                <div class="common-style-icon">
+                  <i class="fas fa-cart-plus"></i>
+                </div>
+                <div class="common-style-icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
               </div>
             </div>
           </div>
-          <div class="common-footer">
-            <div class="common-present-footer">Hữu Ích</div>
-            <div class="common-col-footer">
-              <div class="common-text-footer pointer">Giới thiệu</div>
-              <div class="common-text-footer pointer">Chính sách bảo mật</div>
-              <div class="common-text-footer pointer">Chính sách đổi trả</div>
-              <div class="common-text-footer pointer">Điều khoản dịch vụ</div>
-              <div class="common-text-footer pointer">Liên hệ</div>
-              <div class="common-text-footer pointer">Tra Cứu Đơn Hàng</div>
-              <div class="common-text-footer pointer">Demo Khắc Tên</div>
+          <div class="common-col-content">
+            <div class="img2-content3 common-img-content"></div>
+            <div class="introduce-wallet">
+              <div class="text-introduce-wallet">Ốp lưng IPhone 13 Pro Max
+                Da Thật</div>
+              <div class="price">349.000 ₫</div>
+              <div class="star">
+                <div class="rating1">
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                </div>
+              </div>
+              <div class="img-small-content">
+                <div class="common-row-img-small-content">
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung1"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content blue-color">Xanh
+                        Navy</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung2"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            green-color">Xanh Ngọc</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung3"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            yellow-color">Vàng Bò</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung4"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content red-color">Đỏ
+                        Rượu</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung5"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            brown-color">Nâu Sáp</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung6"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Cam</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="common-row-img-small-content">
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung7"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Cẩm Lai Nâu</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung8"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Cẩm Lai Đỏ</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung9"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Cẩm Lai Xanh </div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung10"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Camou Nâu </div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung11"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Camou Xanh Lá</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung12"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Vân Cá Đỏ</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="common-row-img-small-content">
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung13"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Vân Cá Đen</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-oplung14"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Vân Cá Xanh</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="common-icon-shopping">
+              <div class="sss">
+                <div class="common-style-icon">
+                  <i class="fas fa-cart-plus"></i>
+                </div>
+                <div class="common-style-icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="common-footer">
-            <div class="common-present-footer">Truy Cập Nhanh</div>
-            <div class="common-col-footer">
-              <div class="common-text-footer pointer">Ví Nam</div>
-              <div class="common-text-footer pointer">Ví Nữ</div>
-              <div class="common-text-footer pointer">Phụ Kiện</div>
-              <div class="common-text-footer pointer">Blog</div>
-              <div class="common-text-footer pointer">Tuyển Dụng</div>
+          <div class="common-col-content">
+            <div class="img3-content3 common-img-content"></div>
+            <div class="introduce-wallet">
+              <div class="text-introduce-wallet">Ví da nam phối màu dáng
+                đứng - Pride V</div>
+              <div class="price">520.000 ₫</div>
+              <div class="star">
+                <div class="rating">
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                </div>
+              </div>
+            </div>
+            <div class="common-icon-shopping">
+              <div class="sss">
+                <div class="common-style-icon">
+                  <i class="fas fa-cart-plus"></i>
+                </div>
+                <div class="common-style-icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="common-footer">
-            <div class="common-present-footer">Kết Nối</div>
-            <div class="common-col-footer">
-              <div class="common-text-footer pointer">Facebook</div>
-              <div class="common-text-footer pointer">Instagram</div>
-              <div class="common-text-footer pointer">YouTube</div>
+          <div class="common-col-content">
+            <div class="img4-content3 common-img-content"></div>
+            <div class="introduce-wallet">
+              <div class="text-introduce-wallet">Ví Nam Gập Đôi Dáng Đứng -
+                Saffiano Leather - REVO-V</div>
+              <div class="price">580.000 ₫</div>
+              <div class="star">
+                <div class="rating1">
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                </div>
+              </div>
+              <div class="img-small-content-3">
+                <div class="common-row-img-small-content">
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-vidung-small1"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Xanh Navy</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-vidung-small2"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Đen</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="common-icon-shopping">
+              <div class="sss">
+                <div class="common-style-icon">
+                  <i class="fas fa-cart-plus"></i>
+                </div>
+                <div class="common-style-icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button-arrow-content-3 arrow-right-content3">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+    </div>
+    <div class="content-4 content-3">
+      <div class="header-content">
+        <div class="text-1-content">Best Seller</div>
+        <div class="text-2-content">Những sản phẩm bán nhiều nhất trong 30
+          ngàg qua.</div>
+      </div>
+      <div class="parent-content-4">
+        <div class="common-img-content3">
+          <div class="common-col-content">
+            <div class="img1-content4 common-img-content"></div>
+            <div class="introduce-wallet" style="border: none;">
+              <div class="text-introduce-wallet">PI - Ví Gập Ba Nam - Pull
+                Up Leather</div>
+              <div class="price">650.000 ₫</div>
+              <div class="rating1">
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+              </div>
+            </div>
+            <div class="common-icon-shopping">
+              <div class="sss">
+                <div class="common-style-icon">
+                  <i class="fas fa-cart-plus"></i>
+                </div>
+                <div class="common-style-icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="common-col-content">
+            <div class="img2-content4 common-img-content"></div>
+            <div class="introduce-wallet">
+              <div class="text-introduce-wallet">Mini Cosy - Ví Da Nam Gập
+                Đôi Mini Mỏng Gọn</div>
+              <div class="price">420.000 ₫</div>
+              <div class="star">
+                <div class="rating1">
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                </div>
+              </div>
+              <div class="img-small-content-3">
+                <div class="common-row-img-small-content">
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-mini1"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content blue-color">Nâu</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-mini2"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            green-color">Xanh Navy</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-mini3"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            yellow-color">Đen</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-mini14"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content red-color">Xám</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-mini15"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            brown-color">Xanh Olive</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                  <div class="common-products-pos-content">
+                    <div class="common-img-small-content img-small-content3
+                          img-mini16"></div>
+                    <div class="row-color-products">
+                      <div class="common-color-products-content
+                            Orange-color">Xanh Rêu</div>
+                      <div class="common-arrow-down-content-small"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="common-icon-shopping">
+              <div class="sss">
+                <div class="common-style-icon">
+                  <i class="fas fa-cart-plus"></i>
+                </div>
+                <div class="common-style-icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="common-col-content">
+            <div class="img3-content4 common-img-content"></div>
+            <div class="introduce-wallet">
+              <div class="text-introduce-wallet">Ví gập đôi có ngăn khoá kéo
+                - Rambo</div>
+              <div class="price">550.000 ₫</div>
+              <div class="star">
+                <div class="rating1">
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                </div>
+              </div>
+              <div class="common-row-img-small-content">
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img3-mini1"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content blue-color">Đen
+                      / line Nâu</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img3-mini2"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content green-color">Đen
+                      / line Xanh</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img3-mini3"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content yellow-color">Xám</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img3-mini4"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content red-color">Xanh
+                      Navy</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img3-mini5"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content brown-color">Nâu</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img3-mini6"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content Orange-color">Xanh
+                      Rêu</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="common-icon-shopping">
+              <div class="sss">
+                <div class="common-style-icon">
+                  <i class="fas fa-cart-plus"></i>
+                </div>
+                <div class="common-style-icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="common-col-content">
+            <div class="img4-content4 common-img-content"></div>
+            <div class="introduce-wallet">
+              <div class="text-introduce-wallet">Noble - Ví Đứng Gập Ba</div>
+              <div class="price">490.000 ₫</div>
+              <div class="star">
+                <div class="rating1">
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                </div>
+              </div>
+              <div class="common-row-img-small-content">
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img-oplung1"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content blue-color">Xanh
+                      Navy</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img-oplung2"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content green-color">Xanh
+                      Ngọc</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img-oplung3"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content yellow-color">Vàng
+                      Bò</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img-oplung4"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content red-color">Đỏ
+                      Rượu</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img-oplung5"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content brown-color">Nâu
+                      Sáp</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+                <div class="common-products-pos-content">
+                  <div class="common-img-small-content img-small-content3
+                        img-oplung6"></div>
+                  <div class="row-color-products">
+                    <div class="common-color-products-content Orange-color">Cam</div>
+                    <div class="common-arrow-down-content-small"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="common-icon-shopping">
+              <div class="sss">
+                <div class="common-style-icon">
+                  <i class="fas fa-cart-plus"></i>
+                </div>
+                <div class="common-style-icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </body>
-    <script src="jquery.js"></script> 
-    <script src="lethnic.js"></script>
-  </html>
+    </div>
+    <div class="content-5">
+      <div class="header-content">
+        <div class="text-1-content">Lethnic có gì?</div>
+        <div class="text-2-content">Cùng khám phá những dòng sản phẩm độc
+          đáo từ Lethnic</div>
+      </div>
+      <div class="parent-content-5">
+        <div class="col-left-contenn5 common-cur-content5">
+          <img src="Img/Lethnic-Wallet-For-men_600x.webp">
+        </div>
+        <div class="col-right-content5">
+          <div class="col-right-small-left-content5 common-cur-content5">
+            <img src="Img/content5-right.webp" class="common-small-img-content5">
+          </div>
+          <div class="col-right-small-right-content5">
+            <div class="small-right common-cur-content5">
+              <img src="Img/content5-rigth1.webp" class="common-small-img-content5">
+            </div>
+            <div class="small-right common-cur-content5">
+              <img src="Img/content5-right2.webp" class="common-small-img-content5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-6">
+      <div class="header-content">
+        <div class="text-1-content">Kiến Thức & Quà Tặng</div>
+        <div class="text-2-content">Những chia sẻ thú vị và thông tin hữu
+          ích</div>
+      </div>
+      <div class="parent-content6">
+        <div class="common-knowledge-content6">
+          <div class="common-img-content6 img1-content6"></div>
+          <div class="common-intension-content6">5 TIPS tặng quà thông minh
+            và tiết kiệm cho các dịp lễ</div>
+          <div class="time">March 31, 2022</div>
+        </div>
+        <div class="common-knowledge-content6">
+          <div class="common-img-content6 img2-content6"></div>
+          <div class="common-intension-content6">6 món quà tặng bạn Nam
+            trong buổi hẹn đầu tiên</div>
+          <div class="time">March 22, 2022</div>
+        </div>
+        <div class="common-knowledge-content6">
+          <div class="common-img-content6 img3-content6"></div>
+          <div class="common-intension-content6">8 món quà dành cho bạn nữ
+            trong buổi hẹn hò đầu tiên</div>
+          <div class="time">March 21, 2022</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-footer">
+    <div class="parent-footer">
+      <div class="common-footer">
+        <div class="common-present-footer">Liên Hệ</div>
+        <div class="common-col-footer">
+
+          <div class="text-footer">
+            <div class="common-text-footer">Chi nhánh 1 : 499, Nguyễn Đình
+              Chiểu, Phường 2, Quận 3.</div>
+            <div class="common-text-footer">Chi nhánh 2 : 267/1A, Nguyễn Văn
+              Đậu, Phường 11, Bình Thạnh.( Chưa đón khách )</div>
+            <div class="common-text-footer">Chi nhánh 3 : 39, Huỳnh Văn
+              Bánh, Phường 17, Phú Nhuận</div>
+            <div class="common-text-footer">Chi nhánh 4 : 119 , Quang Trung,
+              Phường 10, Gò Vấp ( Mới khai trương )</div>
+            <div class="common-text-footer">Chi nhánh 5 : 07, Phan Chu
+              Trinh, Quảng Ngãi.</div>
+            <div class="common-text-footer pointer">fb.com/lethnicvietnam</div>
+            <div class="common-text-footer pointer">info@lethnic.vn</div>
+          </div>
+        </div>
+      </div>
+      <div class="common-footer">
+        <div class="common-present-footer">Hữu Ích</div>
+        <div class="common-col-footer">
+          <div class="common-text-footer pointer">Giới thiệu</div>
+          <div class="common-text-footer pointer">Chính sách bảo mật</div>
+          <div class="common-text-footer pointer">Chính sách đổi trả</div>
+          <div class="common-text-footer pointer">Điều khoản dịch vụ</div>
+          <div class="common-text-footer pointer">Liên hệ</div>
+          <div class="common-text-footer pointer">Tra Cứu Đơn Hàng</div>
+          <div class="common-text-footer pointer">Demo Khắc Tên</div>
+        </div>
+      </div>
+      <div class="common-footer">
+        <div class="common-present-footer">Truy Cập Nhanh</div>
+        <div class="common-col-footer">
+          <div class="common-text-footer pointer">Ví Nam</div>
+          <div class="common-text-footer pointer">Ví Nữ</div>
+          <div class="common-text-footer pointer">Phụ Kiện</div>
+          <div class="common-text-footer pointer">Blog</div>
+          <div class="common-text-footer pointer">Tuyển Dụng</div>
+        </div>
+      </div>
+      <div class="common-footer">
+        <div class="common-present-footer">Kết Nối</div>
+        <div class="common-col-footer">
+          <div class="common-text-footer pointer">Facebook</div>
+          <div class="common-text-footer pointer">Instagram</div>
+          <div class="common-text-footer pointer">YouTube</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="jquery.js"></script>
+<script src="lethnic.js"></script>
+
+</html>
