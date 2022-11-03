@@ -1,6 +1,8 @@
-body{
+body {
     font-family: serif;
+    color: #444444;
 }
+
 .my-account {
     width: 100%;
     height: 100%;
@@ -32,7 +34,7 @@ body{
     height: 260px;
     margin-left: 88px;
     justify-content: center;
-    padding-bottom: 60px;
+    padding: 12px 0 12px 0;
 }
 
 .content-left {
@@ -42,14 +44,25 @@ body{
     width: 70%;
     align-items: center;
     border-radius: 10px;
-    height: 260px;
+    /* height: 260px; */
     margin-left: 80px;
 }
 
-.password {}
+.password {
+    margin: 10px;
+    width: 250px;
+    height: 26px;
+    border: solid black 2px;
+    padding: 13px;
+    margin-bottom: 10px;
+}
 
 .email {
     margin: 10px;
+    width: 250px;
+    height: 26px;
+    border: solid black 2px;
+    padding: 13px;
 }
 
 .common-btn {
@@ -71,37 +84,49 @@ body{
 }
 
 .btn {
-    height: 25px;
-    width: 100%;
+    height: 31px;
+    width: 110px;
     border-radius: 9px;
     margin-top: 12px;
+    background: black;
+    color: white;
+    cursor: pointer;
 }
 
 .text {
     margin-top: 20px;
     color: #0000FF;
+    cursor: pointer;
+    height: 40px;
 }
 
-.text:hover{
+.text:hover {
     color: #ffab00;
 }
+
 .describe {
     width: 85%;
+    margin-bottom: 10px;
 }
 
-.input{
+.input {
     border-radius: 5px;
 }
 
-.text>a{
+.text>a {
     text-decoration: none;
 }
 
-.form-login{
+.form-login {
     width: 100%;
 }
 
-.btn-SIGNIN{
+.btn-SIGNIN {
     margin-top: 12px;
 }
 
+.btn:hover {
+    color: black;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
